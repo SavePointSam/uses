@@ -91,6 +91,12 @@ I change the display margin as well.
 + Height of top and bottom margins in terminal panes = 10
 ```
 
+I disable panel title bars.
+
+```
+Preferences > Appearance > Panes > Show per-pane title bar with split panes
+```
+
 The theme is a port of [base16-cupcake](http://chriskempson.com/projects/base16/).
 
 ## fonts

@@ -1,0 +1,58 @@
+"*":
+  "bracket-matcher":
+    highlightMatchingLineNumber: true
+  core:
+    closeDeletedFileTabs: true
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "tree-view"
+      "linter"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontFamily: "Monoid HalfTight"
+    fontSize: 16
+    scrollPastEnd: true
+  "linter-ui-default":
+    panelHeight: 235
+  nuclide:
+    "atom-ide-diagnostics-ui": {}
+    "nuclide-debugger": {}
+    "nuclide-file-tree":
+      autoExpandSingleChild: false
+      showOpenFiles: false
+      showUncommittedChanges: false
+    "nuclide-flow":
+      canUseFlowBin: true
+      warnOnNotInstalled: false
+    "nuclide-home":
+      showHome: false
+    "nuclide-remote-projects":
+      connectionProfiles: [
+      ]
+    use: {}
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      respectEslintignore: false
+      showInStatusBar: true
+    prettierOptions:
+      singleQuote: true
+      tabWidth: 2
+      trailingComma: "all"
+    useEditorConfig: false
+  welcome:
+    showOnStartup: false
+  whitespace: {}

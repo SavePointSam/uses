@@ -4,25 +4,25 @@ A collection of all the tools I use and their settings.
 
 ## Table of Contents
 
-* keyboard
-  * primary
-  * gaming
-  * mats
-* mouse
-  * macOS
-  * Windows / Linux
-  * gaming
-* headphones
-  * primary
-  * secondary
-* terminal
-  * shell
-  * emulator
-* fonts
-  * ASCII
-  * non-ASCII
-* utilities
-  * macOS
+* [keyboard](#keyboard)
+  * [primary](#primary)
+  * [gaming](#gaming)
+  * [mats](#mats)
+* [mouse](#mouse)
+  * [macOS](#macos)
+  * [Windows / Linux](#windows--linux)
+  * [gaming](#gaming-1)
+* [headphones](#headphones)
+  * [primary](#primary-1)
+  * [secondary](#secondary)
+* [terminal](#terminal)
+  * [shell](#shell)
+  * [emulator](#emulator)
+* [fonts](#fonts)
+  * [ASCII](#ascii)
+  * [non-ASCII](#non-ascii)
+* [utilities](#utilities)
+  * [macOS](#macos-1)
 
 ## keyboard
 
@@ -81,7 +81,7 @@ I use iTerm2 and my [profile.json](settings/iTerm2/profile.json) is loaded as a 
 
 I change the display margin as well.
 
-```
+```diff
 # Preferences > Advanced > General
 
 - Width of left and right margins in terminal panes = 5
@@ -113,7 +113,7 @@ I set my line height to 1.5 and use font size 16.
 
 [Atom](https://atom.io/) using the default One Dark themes with the following plugins:
 
-```
+```shell
 ~
 ❯ apm list --installed
 Community Packages (11) ~/.atom/packages

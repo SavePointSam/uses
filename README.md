@@ -21,6 +21,7 @@ A collection of all the tools I use and their settings.
 * [fonts](#fonts)
   * [ASCII](#ascii)
   * [non-ASCII](#non-ascii)
+* [text editor](#text-editor)
 * [utilities](#utilities)
   * [macOS](#macos-1)
 

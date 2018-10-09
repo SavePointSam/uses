@@ -57,7 +57,7 @@ module.exports = {
 
     // set to `false` (without backticks and without quotes) if you want to hide the minimize, maximize and close buttons
     // additionally, set to `'left'` if you want them on the left, like in Ubuntu
-    // default: `true` (without backticks and without quotes) on Windows and Linux,ignored on macOS
+    // default: `true` (without backticks and without quotes) on Windows and Linux, ignored on macOS
     showWindowControls: '',
 
     // custom padding (CSS format, i.e.: `top right bottom left`)
@@ -123,6 +123,30 @@ module.exports = {
     // bellSoundURL: 'http://example.com/bell.mp3',
 
     // for advanced config flags please refer to https://hyper.is/#cfg
+
+    // settings for hyper-overlay
+    overlay: {
+      alwaysOnTop: true,
+      animate: false,
+      hasShadow: false,
+      hideDock: true,
+      hideOnBlur: false,
+      hotkeys: {
+        open: ['Option+Space'],
+        close: ['Option+Space'],
+      },
+      position: 'bottom',
+      primaryDisplay: false,
+      resizable: true,
+      size: {
+        width: 1,
+        height: 0.5,
+      },
+      startAlone: true,
+      startup: true,
+      tray: false,
+      unique: false,
+    },
   },
 
   // a list of plugins to fetch and install from npm
@@ -133,11 +157,11 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     'hyper-snazzy',
-    'hyperterm-alternatescroll',
     'hyper-quit',
     'hyperborder',
     'hyperminimal',
     'hyper-confirm',
+    'hyper-overlay',
   ],
 
   // in development, you can create a directory under

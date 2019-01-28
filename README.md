@@ -111,8 +111,6 @@ christian-kohler.path-intellisense
 CoenraadS.bracket-pair-colorizer
 dbaeumer.vscode-eslint
 esbenp.prettier-vscode
-flowtype.flow-for-vscode
-jpoissonnier.vscode-styled-components
 naumovs.color-highlight
 PeterJausovec.vscode-docker
 Prisma.vscode-graphql

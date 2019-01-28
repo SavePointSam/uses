@@ -105,32 +105,21 @@ theme and the following extensions. Application settings and custom keybindings
 can be found [here](./settings/vscode).
 
 ```shell
-~
 $ code --list-extensions
-CoenraadS.bracket-pair-colorizer
-EditorConfig.EditorConfig
-Orta.vscode-jest
-PKief.material-icon-theme
-PeterJausovec.vscode-docker
-asvetliakov.snapshot-tools
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
+CoenraadS.bracket-pair-colorizer
 dbaeumer.vscode-eslint
-eamodio.gitlens
 esbenp.prettier-vscode
 flowtype.flow-for-vscode
-formulahendry.auto-close-tag
-formulahendry.auto-rename-tag
-jasonnutter.search-node-modules
 jpoissonnier.vscode-styled-components
-kamikillerto.vscode-colorize
-ms-vscode.atom-keybindings
-msjsdiag.debugger-for-chrome
-naumovs.theme-oceanicnext
+naumovs.color-highlight
+PeterJausovec.vscode-docker
+Prisma.vscode-graphql
 robertohuertasm.vscode-icons
 sdras.night-owl
 streetsidesoftware.code-spell-checker
-vincaslt.highlight-matching-tag
+yzhang.markdown-all-in-one
 ```
 
 ## utilities

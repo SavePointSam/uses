@@ -154,3 +154,28 @@ like on Windows.
 listening to music.
 
 [CloudApp](https://www.getcloudapp.com/) for annotating screenshots.
+
+## programs
+
+A generic list of programs that I use regularly.
+
+### macOS
+
+- 1password 6
+- AdvancedRestClient
+- Authy Desktop
+- dbKoda
+- Docker for Mac
+- Dropbox
+- Firefox
+- GitKraken
+- Chrome
+- Handbrake
+- Hyper
+- MacMediaKeyForwarder
+- RingCentral Meetings
+- Sketch
+- Slack
+- Spectacle
+- Spotify
+- Visual Studio Code

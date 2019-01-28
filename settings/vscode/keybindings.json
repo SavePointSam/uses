@@ -1,25 +1,17 @@
 // Place your key bindings in this file to overwrite the defaults
 [
   {
-    "key": "ctrl+alt+cmd+\\",
+    "key": "ctrl+alt+cmd+b",
     "command": "workbench.action.toggleActivityBarVisibility"
   },
   {
-    "key": "cmd+k right",
-    "command": "workbench.action.splitEditor"
-  },
-  {
-    "key": "cmd+k left",
-    "command": "-workbench.action.splitEditor"
+    "key": "ctrl+shift+cmd+up",
+    "command": "editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
   },
   {
     "key": "ctrl+shift+cmd+down",
     "command": "editor.action.insertCursorBelow",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+shift+cmd+up",
-    "command": "-editor.action.insertCursorAbove",
     "when": "editorTextFocus"
   }
 ]
